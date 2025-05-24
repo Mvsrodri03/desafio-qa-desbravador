@@ -2,9 +2,9 @@
 **Responsável:** Marcos Vinícius Dos Santos Rodrigues  
 **Ambiente:** Desktop – Windows 10 Pro (64 bits) – Chrome 136.0.7103.114 – Ryzen 5 3600 – 16 GB RAM – RTX 2060 – Full HD 
 
-### 3. Reserva válida com login (com desconto)
-**Arquivo:** `reserva_com_login.feature`  
-**Pré-condições:** Usuário cadastrado (marcos@email.com).  
+## 3. Reserva válida com login (com desconto)
+**Arquivo:** `reserva_login.feature`  
+**Pré-condições:** Usuário cadastrado (desbravador@email.com).  
 **Passos Executados:**
 1. Logar no site como usuário cadastrado.
 2. Acessar página de reservas https://reservas.desbravador.com.br/1111.

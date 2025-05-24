@@ -2,7 +2,7 @@
 **Responsável:** Marcos Vinícius Dos Santos Rodrigues  
 **Ambiente:** Desktop – Windows 10 Pro (64 bits) – Chrome 136.0.7103.114 – Ryzen 5 3600 – 16 GB RAM – RTX 2060 – Full HD 
 
-### 5. Tentativa de reserva sem disponibilidade
+## 5. Tentativa de reserva sem disponibilidade
 **Arquivo:** `disponibilidade.feature`  
 **Pré-condições:** Período previamente cadastrado no sistema.  
 **Passos Executados:**

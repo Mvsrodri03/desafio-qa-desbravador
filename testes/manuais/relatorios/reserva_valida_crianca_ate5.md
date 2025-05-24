@@ -2,8 +2,8 @@
 **Responsável:** Marcos Vinícius Dos Santos Rodrigues  
 **Ambiente:** Desktop – Windows 10 Pro (64 bits) – Chrome 136.0.7103.114 – Ryzen 5 3600 – 16 GB RAM – RTX 2060 – Full HD 
 
-### 1. Reserva válida sem login (criança até 5 anos - isenta)
-**Arquivo:** `reserva_valida_crianca_ate5.feature`  
+## 1. Reserva válida (criança até 5 anos - isenta)
+**Arquivo:** `reserva_valida_crianca_ate5.feature.feature`  
 **Pré-condições:** Nenhuma  
 **Passos Executados:**
 1. Acessar o site https://reservas.desbravador.com.br/1111.

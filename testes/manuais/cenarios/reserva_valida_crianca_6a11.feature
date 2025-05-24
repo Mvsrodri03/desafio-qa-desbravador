@@ -12,10 +12,9 @@ Funcionalidade: Reserva válida sem login (Criança de 6 a 11 anos pagante)
 
   Cenário: Reserva válida com criança de 6 a 11 anos (pagante)
     Dado que acesso o site https://reservas.desbravador.com.br/1111
-    Quando verifico disponibilidade para 3 dias a partir de 30/05/2025
+    Quando verifico disponibilidade para 5 dias a partir de 09/06/2025
     E adiciono 2 adultos e 1 criança de 6 até 11 anos
     E seleciono o quarto STANDARD ST1
-
     E preencho os dados dos hóspedes:
       | Nome                   | Email                  |
       | DESBRAVADOR SOFTWARE   | desbravador@email.com  |
