@@ -15,23 +15,25 @@ Documentação dos cenários de teste manuais para o sistema de **Reservas Onlin
 
 
 ## 📂 Estrutura do Repositório
-
+```text
+/desafio-qa-desbravador
 ├── README.md # Documentação principal (explicação do projeto)
 ├── METODOLOGIA.md # Justificativas dos cenários
 ├── /testes
-│ └── /manuais
-│ ├── /cenarios
-│ │ ├── reserva_valida_crianca_ate5.feature
-│ │ ├── reserva_valida_crianca_6a11.feature
-│ │ ├── reserva_login.feature
-│ │ ├── pagamento_recusado.feature
-│ │ └── disponibilidade.feature
-│ └── /relatorios
-│ ├── reserva_valida_crianca_ate5.md
-│ ├── reserva_valida_crianca_6a11.md
-│ ├── relatorio_reserva_login.md
-│ ├── relatorio_pagamento_recusado.md
-│ └── relatorio_disponibilidade.md
+│   └── /manuais
+│       ├── /cenarios
+│       │   ├── reserva_valida_crianca_ate5.feature
+│       │   ├── reserva_valida_crianca_6a11.feature
+│       │   ├── reserva_login.feature
+│       │   ├── pagamento_recusado.feature
+│       │   └── disponibilidade.feature
+│       └── /relatorios
+│           ├── reserva_valida_crianca_ate5.md
+│           ├── reserva_valida_crianca_6a11.md
+│           ├── relatorio_reserva_login.md
+│           ├── relatorio_pagamento_recusado.md
+│           └── relatorio_disponibilidade.md
 └── /evidencias
-├── /screenshots
-└── /logs
+    ├── /screenshots
+    └── /logs
+```
