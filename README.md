@@ -9,11 +9,11 @@ Documentação dos cenários de teste manuais para o sistema de **Reservas Onlin
 
 | ID   | Nome do Cenário                                    | Prioridade | Status | Arquivo                                                                                      | Observações |
 |------|----------------------------------------------------|------------|--------|----------------------------------------------------------------------------------------------|-------------|
-| 001 | Reserva válida sem login (criança até 5 anos)      | Alta       | ✅     | [reserva_valida_crianca_ate5.feature](/testes/manuais/cenarios/reserva_valida_crianca_ate5.feature) | Funcionamento conforme esperado - criança isenta |
-| 002 | Reserva válida sem login (criança de 6 a 11 anos)  | Alta       | ⚠️     | [reserva_valida_crianca_6a11.feature](/testes/manuais/cenarios/reserva_valida_crianca_6a11.feature) | Problema no cálculo proporcional (valor superior ao adulto) |
-| 003 | Reserva com login e desconto                       | Alta       | ❌     | [reserva_login.feature](/testes/manuais/cenarios/reserva_login.feature)                      | Desconto de 10% não aplicado para usuários cadastrados |
-| 004 | Pagamento recusado (dados inválidos)               | Crítica    | ✅     | [pagamento_recusado.feature](/testes/manuais/cenarios/pagamento_recusado.feature)            | Bloqueio correto, mas sugere melhoria na mensagem de erro |
-| 005 | Verificação de disponibilidade (sem vagas)         | Média      | ❌     | [disponibilidade.feature](/testes/manuais/cenarios/disponibilidade.feature)                  | Sistema permite reserva mesmo sem disponibilidade |
+| 001 | Reserva válida sem login (criança até 5 anos)      | Alta       | ✅     | [reserva_valida_crianca_ate5.feature](/testes/manuais/relatorios/reserva_valida_crianca_ate5.md) | Funcionamento conforme esperado - criança isenta |
+| 002 | Reserva válida sem login (criança de 6 a 11 anos)  | Alta       | ⚠️     | [reserva_valida_crianca_6a11.feature](/testes/manuais/relatorios/reserva_valida_crianca_6a11.md) | Problema no cálculo proporcional (valor superior ao adulto) |
+| 003 | Reserva com login e desconto                       | Alta       | ❌     | [reserva_login.feature](/testes/manuais/relatorios/relatorio_reserva_login.md)                      | Desconto de 10% não aplicado para usuários cadastrados |
+| 004 | Pagamento recusado (dados inválidos)               | Crítica    | ✅     | [pagamento_recusado.feature](/testes/manuais/relatorios/relatorio_pagamento_recusado.md)            | Bloqueio correto, mas sugere melhoria na mensagem de erro |
+| 005 | Verificação de disponibilidade (sem vagas)         | Média      | ❌     | [disponibilidade.feature](/testes/manuais/relatorios/relatorio_disponibilidade.md)                  | Sistema permite reserva mesmo sem disponibilidade |
 
 
 ## 🎥 Teste Automatizado - Reserva Válida (Criança até 5 anos)
