@@ -3,6 +3,16 @@
 ## Objetivo
 Documentação dos cenários de teste manuais e automatizados para o sistema de **Reservas Online**, conforme desafio técnico.
 
+## 🔍 Cenários Implementados
+
+| ID   | Nome do Cenário                                    | Arquivo                                                                                      |
+|------|----------------------------------------------------|----------------------------------------------------------------------------------------------|
+| 001 | Reserva válida sem login (criança até 5 anos)      | [reserva_valida_crianca_ate5.feature](/testes/manuais/cenarios/reserva_valida_crianca_ate5.feature) |
+| 002 | Reserva válida sem login (criança de 6 a 11 anos)  | [reserva_valida_crianca_6a11.feature](/testes/manuais/cenarios/reserva_valida_crianca_6a11.feature) |
+| 003 | Reserva com login e desconto                       | [reserva_login.feature](/testes/manuais/cenarios/reserva_login.feature)               |
+| 004 | Pagamento recusado (dados inválidos)               | [pagamento_recusado.feature](/testes/manuais/cenarios/pagamento_recusado.feature)     |
+| 005 | Verificação de disponibilidade (sem vagas)         | [disponibilidade.feature](/testes/manuais/cenarios/disponibilidade.feature)           |
+
 ## 🔍 Relatórios dos Cenários Implementados
 
 | ID   | Nome do Cenário                                    | Prioridade | Status | Arquivo                                                                                      | Observações |
