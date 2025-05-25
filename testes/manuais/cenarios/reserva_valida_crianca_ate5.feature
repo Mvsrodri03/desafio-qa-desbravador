@@ -1,6 +1,6 @@
 # language: pt
 @manual
-Funcionalidade: Reserva válida sem login (Criança até 5 anos isenta)
+Funcionalidade: Reserva válida (Criança até 5 anos isenta)
 
   Como um cliente desejando fazer uma reserva
   Eu quero completar todo o fluxo de reserva
