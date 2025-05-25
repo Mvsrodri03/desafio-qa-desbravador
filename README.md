@@ -37,7 +37,7 @@ CVC: 123.
 ```text
 /desafio-qa-desbravador
 ├── README.md # Documentação principal (explicação do projeto)
-├── JUSTIFICATIVA.md # Justificativas dos cenários
+├── JUSTIFICATIVA.md # Motivos para as escolhas dos cenários
 ├── /testes
 │   └── /manuais
 │       ├── /cenarios
