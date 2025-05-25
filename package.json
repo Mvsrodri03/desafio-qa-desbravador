@@ -1,0 +1,25 @@
+{
+  "name": "desafio-qa-desbravador",
+  "version": "1.0.0",
+  "description": "Documentação dos cenários de teste manuais para o sistema de **Reservas Online**, conforme desafio técnico.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mvsrodri03/desafio-qa-desbravador.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mvsrodri03/desafio-qa-desbravador/issues"
+  },
+  "homepage": "https://github.com/Mvsrodri03/desafio-qa-desbravador#readme",
+  "devDependencies": {
+    "cypress": "^14.4.0"
+  }
+}
