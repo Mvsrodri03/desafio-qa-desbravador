@@ -3,9 +3,7 @@
 ## Objetivo
 Documentação dos cenários de teste manuais para o sistema de **Reservas Online**, conforme desafio técnico.
 
-## 🔍 Cenários Implementados
-
-## 🔍 Cenários Implementados
+## 🔍 Relatórios dos Cenários Implementados
 
 | ID   | Nome do Cenário                                    | Prioridade | Status | Arquivo                                                                                      | Observações |
 |------|----------------------------------------------------|------------|--------|----------------------------------------------------------------------------------------------|-------------|
@@ -39,7 +37,7 @@ CVC: 123.
 ```text
 /desafio-qa-desbravador
 ├── README.md # Documentação principal (explicação do projeto)
-├── METODOLOGIA.md # Justificativas dos cenários
+├── JUSTIFICATIVA.md # Justificativas dos cenários
 ├── /testes
 │   └── /manuais
 │       ├── /cenarios
