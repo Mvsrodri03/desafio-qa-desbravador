@@ -47,8 +47,8 @@
 | Valor total sem cobrança pela criança | ✅ Corretamente calculado |
 
 **Evidências:**
-- ![Screenshot_Reserva_cenario01_01](../evidencias/screenshots/Cenario_01/1.jpg)
-- ![Screenshot_Reserva_cenario01_02](../evidencias/screenshots/Cenario_01/2.jpg)
-- ![Screenshot_Reserva_cenario01_03](../evidencias/screenshots/Cenario_01/3.jpg)
-- ![Screenshot_Reserva_cenario01_04](../evidencias/screenshots/Cenario_01/4.jpg)
-- ![Screenshot_Reserva_cenario01_05](../evidencias/screenshots/Cenario_01/5.jpg)
+- ![Screenshot_Reserva_cenario01_01](../../../evidencias/screenshots/Cenario_01/1.jpg)
+- ![Screenshot_Reserva_cenario01_02](../../../evidencias/screenshots/Cenario_01/2.jpg)
+- ![Screenshot_Reserva_cenario01_03](../../../evidencias/screenshots/Cenario_01/3.jpg)
+- ![Screenshot_Reserva_cenario01_04](../../../evidencias/screenshots/Cenario_01/4.jpg)
+- ![Screenshot_Reserva_cenario01_05](../../../evidencias/screenshots/Cenario_01/5.jpg)

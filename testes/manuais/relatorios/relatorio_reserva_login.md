@@ -32,8 +32,9 @@
 | Aplicação do desconto de 10%  | ❌ Desconto não aplicado |
 
 **Evidências:**
-- ![Screenshot_Reserva_cenario03_01](../evidencias/screenshots/Cenario_03/1.jpg)
-- ![Screenshot_Reserva_cenario03_02](../evidencias/screenshots/Cenario_03/2.jpg)
-- ![Screenshot_Reserva_cenario03_03](../evidencias/screenshots/Cenario_03/3.jpg)
-- ![Screenshot_Reserva_cenario03_04](../evidencias/screenshots/Cenario_03/4.jpg)
-- ![Screenshot_Reserva_cenario03_05](../evidencias/screenshots/Cenario_03/5.jpg)
+- ![Screenshot_Reserva_cenario03_01](../../../evidencias/screenshots/Cenario_03/1.jpg)
+- ![Screenshot_Reserva_cenario03_02](../../../evidencias/screenshots/Cenario_03/2.jpg)
+- ![Screenshot_Reserva_cenario03_03](../../../evidencias/screenshots/Cenario_03/3.jpg)
+- ![Screenshot_Reserva_cenario03_04](../../../evidencias/screenshots/Cenario_03/4.jpg)
+- ![Screenshot_Reserva_cenario03_05](../../../evidencias/screenshots/Cenario_03/5.jpg)
+- 
