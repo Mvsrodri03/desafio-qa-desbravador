@@ -44,6 +44,7 @@ CVC: 123.
 [Teste_automatizado_cypress.mp4](/evidencias/videos/Teste_automatizado_cypress.mp4)
 
 ### 📋 Arquivo de Automação
+Assista à demonstração no Vimeo: [Clique aqui para assistir](https://vimeo.com/1087506303/be86d77325?ts=0&share=copy)
 [reserva_valida_crianca_ate5.cy.js](https://github.com/Mvsrodri03/desafio-qa-desbravador/tree/main/cypress/e2e/reserva_valida_crianca_ate5.cy.js)
 
 ## 📂 Estrutura do Repositório
