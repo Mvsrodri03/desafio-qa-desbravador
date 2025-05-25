@@ -1,7 +1,7 @@
 # 📋 Teste Prático QA - Desbravador Software
 
 ## Objetivo
-Documentação dos cenários de teste manuais para o sistema de **Reservas Online**, conforme desafio técnico.
+Documentação dos cenários de teste manuais e automatizados para o sistema de **Reservas Online**, conforme desafio técnico.
 
 ## 🔍 Relatórios dos Cenários Implementados
 
