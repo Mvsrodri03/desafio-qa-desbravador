@@ -19,5 +19,9 @@
 | Não exibir o quarto STANDARD ST1                                | ❌O quarto foi exibido normalmente como disponível                               |
 
 **Evidências:**
-- ![Screenshot_Sem_Disponibilidade](../evidencias/screenshots/sem_disponibilidade.png)
-- [Logs](../evidencias/logs/log_sem_disponibilidade.txt)
+- ![Screenshot_Reserva_cenario05_01](../evidencias/screenshots/Cenario_05/1.jpg)
+- ![Screenshot_Reserva_cenario05_02](../evidencias/screenshots/Cenario_05/2.jpg)
+- ![Screenshot_Reserva_cenario05_03](../evidencias/screenshots/Cenario_05/3.jpg)
+- ![Screenshot_Reserva_cenario05_04](../evidencias/screenshots/Cenario_05/4.jpg)
+- ![Screenshot_Reserva_cenario05_05](../evidencias/screenshots/Cenario_05/5.jpg)
+- ![Screenshot_Reserva_cenario05_06](../evidencias/screenshots/Cenario_05/6.jpg)

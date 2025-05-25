@@ -47,5 +47,8 @@
 | Valor total com cobrança proporcional pela adição da criança | ⚠️ Valor calculado incorretamente — superior ao valor de um adulto adicional|
 
 **Evidências:**
-- ![Screenshot_Reserva](../evidencias/screenshots/reserva_confirmada_6a11.png)
-- [Logs do servidor](../evidencias/logs/log_reserva_6a11.txt)
+- ![Screenshot_Reserva_cenario02_01](../evidencias/screenshots/Cenario_02/1.jpg)
+- ![Screenshot_Reserva_cenario02_02](../evidencias/screenshots/Cenario_02/2.jpg)
+- ![Screenshot_Reserva_cenario02_03](../evidencias/screenshots/Cenario_02/3.jpg)
+- ![Screenshot_Reserva_cenario02_04](../evidencias/screenshots/Cenario_02/4.jpg)
+- ![Screenshot_Reserva_cenario02_05](../evidencias/screenshots/Cenario_02/5.jpg)

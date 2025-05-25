@@ -5,14 +5,35 @@ Documentação dos cenários de teste manuais para o sistema de **Reservas Onlin
 
 ## 🔍 Cenários Implementados
 
-| ID   | Nome do Cenário                                    | Prioridade | Status | Arquivo                                                                                      |
-|------|----------------------------------------------------|------------|--------|----------------------------------------------------------------------------------------------|
-| 001 | Reserva válida sem login (criança até 5 anos)      | Alta       | ✅     | [reserva_valida_crianca_ate5.feature](/testes/manuais/cenarios/reserva_valida_crianca_ate5. |
-| 002 | Reserva válida sem login (criança de 6 a 11 anos)  | Alta       | ✅     | [reserva_valida_crianca_6a11.feature](/testes/manuais/cenarios/reserva_valida_crianca_6a11. |
-| 003  | Reserva com login e desconto                       | Alta       | ⚠️     | [reserva_login.feature](/testes/manuais/cenarios/reserva_login.feature)                      |
-| 004  | Pagamento recusado (dados inválidos)               | Crítica    | ❌     | [pagamento_recusado.feature](/testes/manuais/cenarios/pagamento_recusado.feature)            |
-| 005  | Verificação de disponibilidade (sem vagas)         | Média      | ✅     | [disponibilidade.feature](/testes/manuais/cenarios/disponibilidade.feature)                  |
+## 🔍 Cenários Implementados
 
+| ID   | Nome do Cenário                                    | Prioridade | Status | Arquivo                                                                                      | Observações |
+|------|----------------------------------------------------|------------|--------|----------------------------------------------------------------------------------------------|-------------|
+| 001 | Reserva válida sem login (criança até 5 anos)      | Alta       | ✅     | [reserva_valida_crianca_ate5.feature](/testes/manuais/cenarios/reserva_valida_crianca_ate5.feature) | Funcionamento conforme esperado - criança isenta |
+| 002 | Reserva válida sem login (criança de 6 a 11 anos)  | Alta       | ⚠️     | [reserva_valida_crianca_6a11.feature](/testes/manuais/cenarios/reserva_valida_crianca_6a11.feature) | Problema no cálculo proporcional (valor superior ao adulto) |
+| 003 | Reserva com login e desconto                       | Alta       | ❌     | [reserva_login.feature](/testes/manuais/cenarios/reserva_login.feature)                      | Desconto de 10% não aplicado para usuários cadastrados |
+| 004 | Pagamento recusado (dados inválidos)               | Crítica    | ✅     | [pagamento_recusado.feature](/testes/manuais/cenarios/pagamento_recusado.feature)            | Bloqueio correto, mas sugere melhoria na mensagem de erro |
+| 005 | Verificação de disponibilidade (sem vagas)         | Média      | ❌     | [disponibilidade.feature](/testes/manuais/cenarios/disponibilidade.feature)                  | Sistema permite reserva mesmo sem disponibilidade |
+
+
+## 🎥 Teste Automatizado - Reserva Válida (Criança até 5 anos)
+
+### OBS:
+- O teste foi realizado utilizando a ferramenta Cypress na versão 14.4, com aproximadamente 100% de automação, exceto pela validação de CAPTCHAs, que exigiu intervenção manual devido às limitações técnicas inerentes a essas ferramentas. Essa restrição ocorre por motivos de segurança fundamentais, já que a própria concepção do CAPTCHA foi desenvolvida especificamente para diferenciar humanos de bots, utilizando sistemas avançados como o reCAPTCHA da Google, que empregam inteligência artificial para detectar automações. Todas as demais etapas do processo foram concluídas com sucesso de forma automatizada, completando a reserva de um quarto.
+
+### 📋 Parâmetros do teste
+1. Acessar o endereço https://reservas.desbravador.com.br/1111
+2. Verificar a disponibilidade de reserva para no mínimo 03 dias
+3. Selecionar o quarto STANDARD ST1
+4. Adicionar na reserva 02 Adultos e 01 criança até 05 anos
+5. Informar os hospedes da reserva
+6. Efetuar pagamento com cartão de crédito descrito abaixo. NUMERO: 4000 0000 0000 0044
+NOME: DESBRAVADOR SOFTWARE
+VALIDADE: 12/23
+CVC: 123.
+
+### 📹 Vídeo de Execução
+[Teste_automatizado_cypress.mp4](/evidencias/videos/Teste_automatizado_cypress.mp4)
 
 ## 📂 Estrutura do Repositório
 ```text
@@ -33,7 +54,16 @@ Documentação dos cenários de teste manuais para o sistema de **Reservas Onlin
 │           ├── relatorio_reserva_login.md
 │           ├── relatorio_pagamento_recusado.md
 │           └── relatorio_disponibilidade.md
+├─── /cypress
+│    ├── /e2e
+│    │   ├── reserva_valida_crianca_ate5.cy.js
+│    ├──/screenshots
+│    ├──/support
+│    │  ├── commands.js
+│    │  └── e2e.js
+│    └──/videos
 └── /evidencias
-    ├── /screenshots
-    └── /logs
+    ├─ /screenshots
+    └── /videos
+    
 ```
