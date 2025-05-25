@@ -1,4 +1,5 @@
 import '../support/commands';
+import '../support/e2e';
 
 describe('Reserva completa - 2 adultos e 1 criança até 5 anos', () => {
 
@@ -7,11 +8,11 @@ describe('Reserva completa - 2 adultos e 1 criança até 5 anos', () => {
     });
 
     it('Deve realizar uma reserva com sucesso', () => {
-      /*
+      
       // 1. Acessa o site
       cy.visit('https://reservas.desbravador.com.br/hotel-app/hotel-teste-desbravador-8050');
 
-      cy.wait(3000)
+      cy.wait(35000)
 
       cy.selecionarDiaCalendario('2');
       cy.selecionarDiaCalendario('5');
@@ -30,10 +31,7 @@ describe('Reserva completa - 2 adultos e 1 criança até 5 anos', () => {
 
       cy.contains('button', 'Verificar Disponibilidade').click();
 
-      */
-      cy.visit('https://reservas.desbravador.com.br/hotel-app/hotel-teste-desbravador-8050/reservation?checkin=2025-06-02&checkout=2025-06-06&adults=2&child1=1&child2=0&child3=0&resident=0');
-
-      cy.wait(20000)
+      cy.wait(15000)
 
       cy.contains('p.room-title', 'STANDARD ST1')    // acha o título do quarto
         .parents('div.sc-igQrDQ')
@@ -74,15 +72,18 @@ describe('Reserva completa - 2 adultos e 1 criança até 5 anos', () => {
       cy.get('input[name="firstName"]').type('DESBRAVADOR');
       cy.get('input[name="lastName"]').type('SOFTWARE');
 
-      
-
       // Dados do cartão
       cy.get('input[name="number"]').type('4000000000000044');
       cy.get('input[name="name"]').type('DESBRAVADOR SOFTWARE');
       cy.get('input[name="expiry"]').type('1225');
       cy.get('input[name="cvc"]').type('123');
 
+      //marcar o checkbox
+      cy.get('input[type="checkbox"].form-check-input').check({ force: true });
 
+      cy.wait(35000)
+
+      cy.contains('button', 'Finalizar').click();
     });
   
   });
