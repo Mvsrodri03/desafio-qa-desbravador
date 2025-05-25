@@ -45,8 +45,8 @@
    - Ao clicar no botão "Finalizar", exibir um SweetAlert informando que há dados incorretos no cartão cadastrado.
 
 **Evidências:**
-- ![Screenshot_Reserva_cenario04_01](../../../evidencias/screenshots/Cenario_04/1.jpg)
-- ![Screenshot_Reserva_cenario04_02](../../../evidencias/screenshots/Cenario_04/2.jpg)
-- ![Screenshot_Reserva_cenario04_03](../../../evidencias/screenshots/Cenario_04/3.jpg)
-- ![Screenshot_Reserva_cenario04_04](../../../evidencias/screenshots/Cenario_04/4.jpg)
+- ![Screenshot_Reserva_cenario04_01](../../../evidencias/screenshots/Cenario_04/1.JPG)
+- ![Screenshot_Reserva_cenario04_02](../../../evidencias/screenshots/Cenario_04/2.JPG)
+- ![Screenshot_Reserva_cenario04_03](../../../evidencias/screenshots/Cenario_04/3.JPG)
+- ![Screenshot_Reserva_cenario04_04](../../../evidencias/screenshots/Cenario_04/4.JPG)
 
