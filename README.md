@@ -43,6 +43,9 @@ CVC: 123.
 ### 📹 Vídeo de Execução
 [Teste_automatizado_cypress.mp4](/evidencias/videos/Teste_automatizado_cypress.mp4)
 
+### 📋 Arquivo de Automação
+[reserva_valida_crianca_ate5.cy.js](https://github.com/Mvsrodri03/desafio-qa-desbravador/tree/main/cypress/e2e/reserva_valida_crianca_ate5.cy.js)
+
 ## 📂 Estrutura do Repositório
 ```text
 /desafio-qa-desbravador
