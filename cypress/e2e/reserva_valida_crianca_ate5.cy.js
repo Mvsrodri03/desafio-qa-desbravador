@@ -31,35 +31,26 @@ describe('Reserva completa - 2 adultos e 1 criança até 5 anos', () => {
 
       cy.contains('button', 'Verificar Disponibilidade').click();
 
-      cy.wait(15000)
+      cy.wait(10000)
 
-      cy.contains('p.room-title', 'STANDARD ST1')    // acha o título do quarto
+      cy.contains('p.room-title', 'STANDARD ST1')
         .parents('div.sc-igQrDQ')
         .contains('button', 'Adicionar')
         .first()
+        .should('be.visible')
         .click()
 
-      cy.get('button.btn-secondary').contains('Continuar').click()
-
-      cy.wait(5000)
+      cy.get('button.btn-secondary',{ timeout: 10000 }).contains('Continuar').should('be.visible').click()
 
       // Abrir o modal de hóspedes
-      cy.get('.sc-dYwfDW').contains('button', 'Hóspedes').click();
+      cy.get('.sc-dYwfDW').contains('button', 'Hóspedes').should('be.visible').click();
 
-     // Buscar todos os blocos de input dentro do modal
-    cy.get('.modal-body .mb-3').then((campos) => {
-      // Primeiro hóspede - Adulto 1
-      cy.wrap(campos[0]).find('input').type('DESBRAVADOR SOFTWARE');
-      cy.wrap(campos[1]).find('input').type('desbravador@email.com');
-
-      // Segundo hóspede - Adulto 2
-      cy.wrap(campos[2]).find('input').type('Maria');
-      cy.wrap(campos[3]).find('input').type('maria@email.com');
-
-      // Terceiro hóspede - Criança
-      cy.wrap(campos[4]).find('input').type('Pedro');
-      cy.wrap(campos[5]).find('input').type('pedro@email.com');
-    });
+      // Buscar todos os blocos de input dentro do modal
+      cy.preencherHospedes([
+        'DESBRAVADOR SOFTWARE', 'desbravador@email.com',
+        'Maria', 'maria@email.com',
+        'Pedro', 'pedro@email.com'
+      ]);
 
       // Clicar em Salvar
       cy.get('.modal-body').contains('button', 'Salvar').click();
